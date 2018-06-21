@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Data
-slug: data
+title: Dev
+slug: dev
 menu: true
 submenu: true
-order: 2
+order: 3
 description: >
-  Data!!!!
+  개발이야기
 ---
