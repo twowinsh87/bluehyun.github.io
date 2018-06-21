@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "18.06.19 데이터 엔지니어 수업 정리 "
+title:  "데이터 엔지니어 수업 정리 "
 subtitle:   "패캠 데이터엔지니어 수업"
 categories: data
 tags: engineering
 comments: true
 ---
-
+수업 내용을 정리 한 것
 
 ## python
 
@@ -40,15 +40,15 @@ comments: true
 		* 프로젝트 별로 다른 버전의 패키지들을 설치 할 경우
 		* 골치가 아픈... 			
 
-## jupyter notebook##
+## jupyter notebook
 >머신러닝에서는 파이썬이 강세라 jupyter notebook 을 자주 사용 할 예정
 
 ```남은 수업이 6번이라니?ㅠㅠ```
 ```python string index func 에서 검색이 안되면 에러난다```
 
-> ***scala hashmap*** 꼭 알아둬라!
+> ***scala hashmap*** 꼭 알아둬라!***
 
-## NumPy##
+## NumPy
 >Python list 대체, 빠르고 기능이 많다.
 >행렬 계산이 쉽게 된다
 
