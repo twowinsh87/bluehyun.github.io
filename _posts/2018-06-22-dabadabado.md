@@ -20,4 +20,4 @@ github.io 는 어찌어찌 하는지 이제사 슬슬 알아가고 있다
 ##### 안할꺼다!!!!안할꺼야!!!! 안하고싶어요!!!!
 
 
-<img src="../../../assets/img/kong.jpg" width="50%" height="50%">
+<img src="https://bluehyun.github.io/assets/img/kong.jpg" width="50%" height="50%">
