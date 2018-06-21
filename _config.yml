@@ -19,7 +19,7 @@ tagline:             블로그 테스트!!
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
   공부한걸 정리해보려고 시작하는 블로그
-  
+
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
@@ -45,7 +45,7 @@ google_fonts:        Lato
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:    
+google_analytics:
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
 disqus_shortname:    bluehyun
