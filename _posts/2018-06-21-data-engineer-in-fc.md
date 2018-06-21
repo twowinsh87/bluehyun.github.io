@@ -6,9 +6,9 @@ categories: Data
 tags: engineering
 comments: true
 ---
-##des 180619##
 
-###python###
+
+##python##
 * NumPy , Pandas 는 머신러닝에서 많이 사용되므로 알아둘 필요가 있다
 * pySpark 실습
 * TensorFlow 실습
@@ -39,7 +39,7 @@ comments: true
 		* 프로젝트 별로 다른 버전의 패키지들을 설치 할 경우
 		* 골치가 아픈... 			
 
-###jupyter notebook###
+##jupyter notebook##
 >머신러닝에서는 파이썬이 강세라 jupyter notebook 을 자주 사용 할 예정
 
 ```남은 수업이 6번이라니?ㅠㅠ```
@@ -47,35 +47,35 @@ comments: true
 
 > ***scala hashmap*** 꼭 알아둬라!
 
-###NumPy###
+##NumPy##
 >Python list 대체, 빠르고 기능이 많다.
 >행렬 계산이 쉽게 된다
 
 >남은 수업시간 동안 공부해도 마스터 하긴 힘드니 머신러닝에서 어떻게 사용되는지 감을 알아가자
 
-###Pandas###
+##Pandas##
 >spark dataFrame 과 연관지어 설명.
 >import pandas as pd 로 호출 일일히 pandas 로 치기 귀찮;;;
 >
 >spark dataFrame 과 매우 유사함
 
-###PySpark###
+##PySpark##
 >기존 spark 의 대부분 기능을 python 으로 사용 가능함
 
 >rdd api 에서는  Python -> JVM 으로 object copy 가 일어나서 PySpark 의 실행성능이 떨어졌음
 
 >현재 dataFrame api는 scala와 동일한 성능을 가짐
 
->zepplin 연동도 가능하고 terminal 에서 spark-shell 말고 pyspark 실행하면 된다
-```zepplin 에서......................문제가 많아서 zepplin 다운 받아서 직접 빌드하여 쓰자```
+>zeppelin 연동도 가능하고 terminal 에서 spark-shell 말고 pyspark 실행하면 된다
+```zepplin 에서......................문제가 많아서 zeppelin 다운 받아서 직접 빌드하여 쓰자```
 
 
 
-##zepplin bulid 방법##
+##zeppelin bulid 방법##
 zepplin git hub 가서 tag에 v0.8.0-rc5를 다운 받아서
 
 git hub 하단에 빌드 방법을 참고 하여 빌드
-
+다음 포스트에 zeppelin 빌드 방법을 쓰겠음.
 ```
 mvn clean package -DskipTests [Options]
 ```
