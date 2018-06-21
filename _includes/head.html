@@ -82,6 +82,7 @@
 <!-- =============== -->
 <!-- SCRIPTS         -->
 <!-- =============== -->
+{% include analytics.html %} <!-- Here -->
 <script>
   {% include scripts/load-js-deferred.min.js %}
   {% include scripts/loadCSS.min.js %}
@@ -89,7 +90,7 @@
   window.disablePushState = {{ site.disable_push_state | default:false}};
   window.disableDrawer = {{ site.disable_drawer | default:false}};
 </script>
-{% include analytics.html %} <!-- Here -->
+
 
 <!--[if lt IE 9]>
 <script src="https://unpkg.com/html5shiv/dist/html5shiv.min.js"></script>
