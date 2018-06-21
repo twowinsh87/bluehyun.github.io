@@ -21,3 +21,5 @@ github.io 는 어찌어찌 하는지 이제사 슬슬 알아가고 있다
 
 
 <img src="https://bluehyun.github.io/assets/img/kong.jpg" width="50%" height="50%">
+
+###### 이 삽질의 고통은 콩이나 안고 힐링 해야지
