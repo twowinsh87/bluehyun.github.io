@@ -2,7 +2,7 @@
 layout: post
 title:  "18.06.19 데이터 엔지니어 수업 정리 "
 subtitle:   "패캠 데이터엔지니어 수업"
-categories: Data
+categories: data
 tags: engineering
 comments: true
 ---
