@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "zeppelin 빌드해서 쓰기 "
-subtitle:   "연속된 삽질"
+title:  "zeppelin 빌드하기"
+subtitle:   "zeppelin 빌드하기"
 categories: data
 tags: zeppelin
 comments: true
