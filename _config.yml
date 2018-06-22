@@ -48,7 +48,7 @@ google_fonts:        Lato
 google_analytics: UA-80265650-1
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
-disqus_shortname:    bluehyun
+disqus_shortname:    bluehyun-github-io
 
 # This text will appear in the footer of every page. Markdown enabled.
 copyright:           ''
