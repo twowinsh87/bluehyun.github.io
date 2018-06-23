@@ -7,7 +7,8 @@ tags: zeppelin
 comments: true
 ---
 
-최신 zeppelin 빌드하기
+최신 zeppelin 빌드하기 
+## mac 기준으로 작성합니다.
 
 github 가서 [zepplin githup](https://github.com/apache/zeppelin/) 또는 terminal 에서
 
