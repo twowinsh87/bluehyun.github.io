@@ -18,6 +18,23 @@ github 가서 [zepplin githup](https://github.com/apache/zeppelin/) 또는 termi
 git clone https://github.com/apache/zeppelin.git
 git checkout v0.8.0-rc5
 ```
+
+checkout 한 버전 확인하기
+```
+hyeonjuui-MacBook-Pro:zeppelin hyeonju$ git status
+HEAD detached at v0.8.0-rc5
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   conf/zeppelin-env.sh.template
+	modified:   zeppelin-web/package-lock.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+
+
 하단의 [Build from source](https://zeppelin.apache.org/docs/latest/install/build.html) 를 보면 받은 소스를 빌드 하는 방법에 대해 나와있다.
 
 ```
