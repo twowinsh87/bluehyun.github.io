@@ -13,7 +13,7 @@ url:                 https://bluehyun.github.io
 baseurl:             ""
 
 # A very short description of your page
-tagline:             블로그 테스트!!
+tagline:             공부하는걸 정리 하는 
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
