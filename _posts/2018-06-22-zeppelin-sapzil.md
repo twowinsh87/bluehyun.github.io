@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "zeppelin 빌드해서 쓰기 "
-subtitle:   "연속된 삽질"
+title:  "zeppelin 빌드하기"
+subtitle:   "zeppelin 빌드하기"
 categories: data
 tags: zeppelin
 comments: true
@@ -11,7 +11,7 @@ comments: true
 
 github 가서 [zepplin githup](https://github.com/apache/zeppelin/) 또는 terminal 에서
 
->다운로드 받을때는 최신 버전을 받도록 하자. </br>개발중이므로 rc version을 사용하길 권장함</br>[마스터버전다운링크](https://github.com/apache/zeppelin/archive/master.zip)
+>다운로드 받을때는 최신 버전을 받도록 하자. <br>개발중이므로 rc version을 사용하길 권장함<br>[마스터버전다운링크](https://github.com/apache/zeppelin/archive/master.zip)
 
 ```
 git clone https://github.com/apache/zeppelin.git
@@ -35,7 +35,7 @@ brew install maven
 
 maven 을 설치하고 빌드 한 뒤 실행하면 된다.
 에러가 나는 경우가 있다.
-</br>
+<br>
 
 * 프로세스가 실행중인지 확인하자
 * zeppelin 에서 스파크 버전을 보자 2.2.0 이면<br> zeppelin/conf/ zeppelin.env.sh 에서 export SHARK_HOME 지정 하거나<br> zeppelin inter 에서 설치된 spark 경로를 기입하면 된다.
