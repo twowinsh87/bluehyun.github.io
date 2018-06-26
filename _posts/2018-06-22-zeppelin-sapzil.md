@@ -7,7 +7,7 @@ tags: zeppelin
 comments: true
 ---
 
-최신 zeppelin 빌드하기 
+최신 zeppelin 빌드하기
 ## mac 기준으로 작성합니다.
 
 github 가서 [zepplin githup](https://github.com/apache/zeppelin/) 또는 terminal 에서
@@ -120,3 +120,16 @@ Exception in thread "main" java.lang.ExceptionInInitializerError
 프로세스 가 실행중임. 기존에 실행중인 zeppelin 다 죽이고 하면 됨
 >ps -ef | grep zeppelin 으로 찾아서<br>
 >kill -9 ***프로세스번호***
+
+
+### zeppelin config 설정
+
+export JAVA_HOME으로  java8경로 설정
+
+1. export JAVA_HOME으로  java8경로 설정
+2. git clone -> cd zeppelin -> git checkout -b  -> mvn ~
+3. spark 2.3.1 버전 다운로드
+4. conf 에서 zeppelin.env.sh.template를 zeppelin.env.sh로 카피 후 export JAVA_HOME / export SPARK_HOME 경로 설정(각각 1.8.1 /  2.3.1)
+> mac 에선 /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home
+
+5. ./bin/zeppelin-daemon.sh start 로 실행
