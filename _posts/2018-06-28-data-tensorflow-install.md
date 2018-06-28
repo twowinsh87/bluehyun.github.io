@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "데이터 엔지니어 수업 정리 180622"
+title:  "tensorflow 설치하기"
 subtitle:   "패캠 데이터엔지니어 수업"
 categories: data
 tags: tensorflow
@@ -69,3 +69,5 @@ hello = tf.constant('Hello, TensorFlow!')
 sess = tf.Session()
 print(sess.run(hello))
 </pre>
+
+jupyter 땜시 anaconda 는 지웠다가 다시 설치함
