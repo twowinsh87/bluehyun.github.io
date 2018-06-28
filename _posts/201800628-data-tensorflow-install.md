@@ -58,3 +58,14 @@ pip 10.0.1 from /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/
 pip3 install tensorflow
 ```
 로 설치함
+
+
+간단하게 설치된걸 확인하려면
+
+터미널에서 파이썬 실행후
+<pre>
+import tensorflow as tf
+hello = tf.constant('Hello, TensorFlow!')
+sess = tf.Session()
+print(sess.run(hello))
+</pre>
