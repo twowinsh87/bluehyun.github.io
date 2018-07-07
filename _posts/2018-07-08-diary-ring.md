@@ -30,7 +30,7 @@ blog search module 달려고 테스트중인데...뭔간 해야겠고...호로�
 >장인정신으로 한땀 한땀 노가다
 반지를 손가락 사이즈에 맞춰서 틀만 잡힌 링을 망치로 뚜둘겨 가며 사이즈에 맞춰서 늘려준다
 <br>
-<img src="https://bluehyun.github.io/assets/img/ring/1.jpg" width="80%" height="80%"  style="transform: rotate(90deg);position: relative">
+<img src="https://bluehyun.github.io/assets/img/ring/1.jpg" >
 <br>
 ```
 측정할땐 13호 였지만 막상 늘려서 껴보니...14호에 가까워지게 뚜들김..
