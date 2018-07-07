@@ -27,7 +27,7 @@ sudo pip3 insatll matplotlib
 
 -------------------------------
 
-##추가로 des 수업 jupyter 로 수업 이어하기
+## 추가로 des 수업 jupyter 로 수업 이어하기
 
 namuwiki_20180326.json 파일을 **8기가** 다!
 
