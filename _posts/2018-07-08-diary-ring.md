@@ -10,7 +10,7 @@ comments: true
 ~~~
 github blog search 검색중에...뭔간 해야겠고...호로요이 라도 마시면서 반지라도 자랑하자
 ~~~
-<img src="https://bluehyun.github.io/assets/img/ring/santory.jpg" width="80%" height="80%">
+<img src="https://bluehyun.github.io/assets/img/ring/santory.jpg" width="40%" height="80%">
 
 ## 오랜만에 또 만든 반지
 
