@@ -11,7 +11,7 @@ comments: true
 blog search module 달려고 테스트중인데...뭔간 해야겠고...호로요이 라도 마시면서 반지 만든거 라도 자랑하자
 ~~~
 <br>
-<img src="https://bluehyun.github.io/assets/img/ring/santory.jpg" width="40%" height="80%" style="transform: rotate(90deg);position: relative">
+<img src="https://bluehyun.github.io/assets/img/ring/santory.jpg" >
 <br>
 ## 오랜만에 또 만든 반지
 
