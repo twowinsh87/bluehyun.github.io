@@ -81,11 +81,11 @@ konlpy install 하고 테스트 하는 과정에서 jupyter 가 죽는다!!!
 
 예측컨데 아마도 tensorflow 설치할때 anaconda 를 지웠고 다시 설치 해놓으면서 환경이 꼬인듯 하다
 
-<img src='https://bluehyun.github.io/assets/jupyter/jupyterdead.png'>
+<img src='https://bluehyun.github.io/assets/img/jupyter/jupyterdead.png'>
 
 추가정보를 눌러보니 java 6 se 를 설치하라는 사이트로 넘어가고 설치 했더니 된다
 
-<img src='https://bluehyun.github.io/assets/jupyter/javaseinstall.png'>
+<img src='https://bluehyun.github.io/assets/img/jupyter/javaseinstall.png'>
 
 
 > konlpy 라이브러리는 twitter 에서 만든 형태소 분석기 라이브러리
