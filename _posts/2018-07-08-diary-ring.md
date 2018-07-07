@@ -6,7 +6,7 @@ categories: diary
 tags: diary
 comments: true
 ---
-
+### 아이폰에서 사진 옮겨와서 올리니 exif 가 안맞나.. 사진이 계속 요상하다.. exiftool 로 수정해서 올려도 변화가 없다..에라 모르겠다;
 ~~~
 blog search module 달려고 테스트중인데...뭔간 해야겠고...호로요이 라도 마시면서 반지 만든거 라도 자랑하자
 ~~~
