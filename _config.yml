@@ -132,8 +132,8 @@ sass:
 # Tipue search settings
 tipue_search:
   include:
-  pages: true
+  pages: false
   exclude:
-    files: [search.html]
-    tags: [fcdes, jupyter,tensorflow,zeppelin,diary]
-    categories: [data,dev,diary,etc]
+    files: [search.html, tags.html]
+    tags: []
+    categories: []
