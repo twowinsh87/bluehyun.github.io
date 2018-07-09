@@ -1,3 +1,24 @@
+<style>
+#tipue_search_input
+{
+     color: #333;
+     max-width: 210px;
+	padding: 17px;
+	border: 1px solid #e3e3e3;
+	border-radius: 0;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+     box-shadow: none; 
+	outline: 0;
+	margin: 0;
+}
+  
+.tipue_search_left
+{
+     float: left;
+     padding: 15px 9px 0 0;
+}  
+</style>
 <div id="_yDrawer">
   <div id="_sidebar" class="sidebar">
     <div class="sidebar-bg" style="background-color:{{ color }};background-image:url({{ image }})"></div>
@@ -14,7 +35,7 @@
       <form action="/search">
         <div class="tipue_search_box">
           <img src="/assets/tipuesearch/search.png" class="tipue_search_icon" style="display:inline-block;width:40px;height:40px;">
-          <input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="최소 3글자 이상" style="float:left" required>
+          <input type="text" name="q" id="tipue_search_input" class="tipue_search_left" pattern=".{3,}" title="최소 3글자 이상" required>
         </div>
         <div style="clear: both;"></div>
       </form>
