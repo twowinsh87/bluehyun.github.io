@@ -13,7 +13,7 @@ url:                 https://bluehyun.github.io
 baseurl:             ""
 
 # A very short description of your page
-tagline:             공부하는걸 정리 하는 
+tagline:             공부하는걸 정리 하는
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
@@ -128,3 +128,12 @@ compress_html:
 
 sass:
   style:             compressed
+
+# Tipue search settings
+tipue_search:
+  include:
+  pages: true
+  exclude:
+  files: [search.html]
+  tags: [fcdes, jupyter,tensorflow,zeppelin,diary]
+  categories: [data,dev,diary,etc]
