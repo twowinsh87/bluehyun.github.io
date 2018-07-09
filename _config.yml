@@ -8,6 +8,9 @@ title:               bluehyun's 공부하는 블로그
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
 url:                 https://bluehyun.github.io
 
+# timezon set
+timezone: Asia/Seoul # 지역 시간 설정
+
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
 baseurl:             ""
