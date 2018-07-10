@@ -107,36 +107,36 @@ word2vec 은 사전을 만들고 학습을 한다.
 
 컴퓨터에서의 단어 표현
 
-##Word Embedding
+## Word Embedding
 
-####one hot encoding
+#### one hot encoding
 
 * 10차원 - 10 가지를 표현 할 수 있음
 * 일상 단어를 표현하려면 2~5만 차원, 큰 단어목록은 50만차원 정도 가 필요함
 
 
-####vector Representation
+#### vector Representation
 
 * 비슷한 단어끼리 비슷한 곳에 위치 하도록
 
 
-####확률적 언어 모델
+#### 확률적 언어 모델
 * 중심 단어가 주어졌을때 주변 단어들이 나올 확률을 구하고, 이 확률을 높이는 방향으로 벡터를 조정함
 * 확률 언어 모델로 구글 번역기, 음성인식을 만든다
 
 
-###Word2vec
+### Word2vec
 > 확률적 언어 모델을 만들다가 뽀록으로 발견됨
 
 * 기존의 Neural Net Language Model
 	- 주변의 단어갯수 N , 사전의 크기 V, Projection Layer 크기 P
 
-####종류
+#### 종류
 * CBOW
 * Skip-Gram
 
 
-####word2vec 원리
+#### word2vec 원리
 
 중심단어를 c(center word), 주변단어를 o(outer word) 가 등장할 확률을 softmax를 사용하여 다음과 같이 정의한다..
 
@@ -149,7 +149,7 @@ u,v 벡터가 어쩌다 보니 나오는가보다...로 공식을 이해하려�
 
 cost function : log-likelihood 를 사용
 
-####negative sampling
+#### negative sampling
 중심단어 하나에 대해 모든 단어의 확률을 계산해야 하므로 계산량이 많음
 이를 단순화 하여 일부 5-20개의 단어만 뽑아서 계산을 수행해도 유사한 효과를 얻을수있다
 이러한것을 ***negative sampling*** 이라 한다
