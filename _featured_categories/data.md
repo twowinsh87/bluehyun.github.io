@@ -3,7 +3,7 @@ layout: list
 title: Data
 slug: data
 menu: true
-submenu: true
+submenu: false
 order: 1
 description: >
   Data Study
