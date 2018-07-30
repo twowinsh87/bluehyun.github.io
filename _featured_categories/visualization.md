@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Dev
-slug: dev
+title: Visualization
+slug: visual
 menu: true
 submenu: true
-order: 3
+order: 2
 description: >
-  개발이야기
+  태블로(Tableau) 그리고 시각화
 ---

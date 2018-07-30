@@ -4,7 +4,7 @@ title: Data
 slug: data
 menu: true
 submenu: true
-order: 2
+order: 1
 description: >
-  Data!!!!
+  Data Study
 ---

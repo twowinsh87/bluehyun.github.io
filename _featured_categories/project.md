@@ -1,10 +1,10 @@
 ---
 layout: list
-title: ETC
-slug: etc
+title: Project
+slug: project
 menu: true
 submenu: true
 order: 4
 description: >
-  일상생활
+  Projects
 ---

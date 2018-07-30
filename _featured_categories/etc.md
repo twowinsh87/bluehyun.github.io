@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Diary
-slug: diary
+title: etc
+slug: etc
 menu: true
-submenu: false
-order: 1
+submenu: true
+order: 5
 description: >
-  일상생활
+  용어정리, 면접정리, 기타 지식, etc
 ---
