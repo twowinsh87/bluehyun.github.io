@@ -1,10 +1,10 @@
 ---
 layout: list
-title: ETC
-slug: etc
+title: Diary
+slug: diary
 menu: true
-submenu: true
-order: 4
+submenu: false
+order: 1
 description: >
   일상생활
 ---
