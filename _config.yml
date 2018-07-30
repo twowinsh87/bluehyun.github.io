@@ -2,7 +2,7 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               twowinsh's 블로그
+title:               앞으로 점프 👉
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
@@ -16,12 +16,12 @@ timezone: Asia/Seoul # 지역 시간 설정
 baseurl:             ""
 
 # A very short description of your page
-tagline:             공부하는걸 정리 하는
+tagline:             데이터 전문가를 향하는 초보
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  시작
+  네이버 블로그에서 옮기는 중
 
 
 # This should be the same author as first entry in `_data/authors.yml`
@@ -30,7 +30,7 @@ author:
   email:             shalee729@gmail.com
 
 # Fallback image and color
-image:               /assets/img/nap.jpg
+image:               /assets/img/mypic.jpeg
 color:               '#4f86aa'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
