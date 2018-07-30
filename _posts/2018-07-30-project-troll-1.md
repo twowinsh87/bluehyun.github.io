@@ -7,7 +7,7 @@ tags: troll
 comments: true
 ---
 
-## 프로젝트 시작(18/07/30) 
+## 프로젝트 시작(18/07/30)
 
 > 2018/7/26~27 <br>
 기획 > 데이터 아키텍쳐 > 분석 > 시각화 > 서비스
@@ -23,4 +23,5 @@ comments: true
 
 - 1차 기술스택
  - 커뮤니케이션 툴: Trello, git wiki, slack, google drive
+ - 언어: Python, Scala
  - 시스템 구조 v0.1
