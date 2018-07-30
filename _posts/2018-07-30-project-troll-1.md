@@ -22,6 +22,6 @@ comments: true
 - 오늘은 데이터 파이프라인 구성을 시작하는 날이다.
 
 - 1차 기술스택
- - 커뮤니케이션 툴: Trello, git wiki, slack, google drive
- - 언어: Python, Scala
- - 시스템 구조 v0.1
+  - 커뮤니케이션 툴: Trello, git wiki, slack, google drive
+  - 언어: Python, Scala
+  - 시스템 구조 v0.1
