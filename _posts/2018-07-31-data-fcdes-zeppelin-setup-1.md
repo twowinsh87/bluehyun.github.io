@@ -3,7 +3,7 @@ layout: post
 title:  "Zeppelin 설치하기"
 subtitle:   "Zeppelin 설치하기"
 categories: data
-tags: fcdes
+tags: fc
 comments: true
 ---
 
@@ -22,9 +22,9 @@ If you haven't installed Git and Maven yet, check the Build requirements section
 
 
 1. maven 설치(maven 설치가 안된 경우에만)
-`https://zeppelin.apache.org/docs/latest/install/build.html#build-requirements`
-`$ wget http://www.eu.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz`
-`$ sudo tar -zxf apache-maven-3.3.9-bin.tar.gz -C /usr/local/`
+`https://zeppelin.apache.org/docs/latest/install/build.html#build-requirements`<br>
+`$ wget http://www.eu.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz`<br>
+`$ sudo tar -zxf apache-maven-3.3.9-bin.tar.gz -C /usr/local/`<br>
 `$ sudo ln -s /usr/local/apache-maven-3.3.9/bin/mvn /usr/local/bin/mvn`
 
 2. 제플린 git clone <br>

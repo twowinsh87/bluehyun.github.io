@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Visualization
-slug: visual
+slug: visualization
 menu: true
 submenu: true
 order: 2
