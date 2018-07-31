@@ -25,3 +25,5 @@ comments: true
   - 커뮤니케이션 툴: Trello, git wiki, slack, google drive
   - 언어: Python, Scala
   - 시스템 구조 v0.1
+
+<img src="https://github.com/twowinsh87/twowinsh87.github.io/blob/master/assets/img/systemstructure_v0.1.png?raw=true" width="90%"></img>
