@@ -49,6 +49,12 @@ nothing to commit, working tree clean
 
 7. ~/zeppelin`$ mvn clean package -DskipTests`
 
+8. 웹에서 localhost:8080 확인
+
+9. sc확인, csv파일 불러오기 확인
+
+10. java.lang.NoSuchMethodError: 발생시 아래 링크 참조
+
 
 <br>
 **많은 시간이 걸립니다. 완료!<br>
