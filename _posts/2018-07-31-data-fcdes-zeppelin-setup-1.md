@@ -3,7 +3,7 @@ layout: post
 title:  "Zeppelin 설치하기"
 subtitle:   "Zeppelin 설치하기"
 categories: data
-tags: fc
+tags: fcdes
 comments: true
 ---
 

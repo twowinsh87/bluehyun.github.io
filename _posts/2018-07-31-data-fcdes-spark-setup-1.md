@@ -3,7 +3,7 @@ layout: post
 title:  "Spark 설치하기"
 subtitle:   "Spark 설치, homebrew로 설치한 Scala 버전 변경(2.11.x)"
 categories: data
-tags: fc
+tags: fcdes
 comments: true
 ---
 
