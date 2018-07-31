@@ -16,7 +16,7 @@ timezone: Asia/Seoul # 지역 시간 설정
 baseurl:             ""
 
 # A very short description of your page
-tagline:             데이터 전문가를 향하는 
+tagline:             데이터 전문가를 향하는 주니어 😉
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
