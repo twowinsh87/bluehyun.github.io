@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: tensorflow
-slug: tensorflow
+title: DeepLearning
+slug: deeplearning
 category: data
 menu: false
-order: 3
+order: 4
 ---
