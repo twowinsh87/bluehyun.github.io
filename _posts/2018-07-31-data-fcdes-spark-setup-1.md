@@ -9,7 +9,7 @@ comments: true
 
 ## Spark 설치 & Scala 버전 & Homebrew 설치하기
 
-> 개발 환경(spark, hadoop, scala가 제멋대로 설치가 되어있습니다.)
+> 개발 환경(spark, hadoop, scala가 제멋대로 설치가 되어있습니다.)<br>
  OS: Mac os Sierra 10.12.6 <br>
  Local PC Hadoop version: 3.0 <br>
  Spark version: 2.3 <br>
