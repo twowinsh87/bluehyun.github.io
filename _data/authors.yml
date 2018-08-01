@@ -15,14 +15,14 @@ twowinsh:
     src:             /assets/img/mypic_jp.jpeg
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            #/assets/img/mypic_jp.jpeg
+      1x:            /assets/img/mypic_jp.jpeg
       2x:            /assets/img/mypic_jp.jpeg
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Icons appear in order, can be rearranged:
   social:
-    #facebook:        
+    #facebook:
     # twitter:         <username>
     # google:          <number>
     # vk:              <username>
