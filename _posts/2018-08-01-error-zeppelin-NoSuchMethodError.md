@@ -25,7 +25,7 @@ comments: true
 java 경로 확인 <br>
 `$ /usr/libexec/java_home -v 1.8`<br>
 
- spark 다운받은 경로 확인하기<br>
+spark 다운받은 경로 확인하기<br>
 ex) # 주석 제거후<br>
 `export JAVA_HOME="your Java path"`<br>
 `export SPARK_HOME="your spark path"`<br>
