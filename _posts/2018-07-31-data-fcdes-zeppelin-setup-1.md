@@ -54,7 +54,7 @@ nothing to commit, working tree clean
 9. sc확인, csv파일 불러오기 확인
 
 10. java.lang.NoSuchMethodError: 발생시 아래 링크 참조
-
+[java.lang.NoSuchMethodError 해결](https://twowinsh87.github.io/data/2018/08/01/error-zeppelin-NoSuchMethodError/)
 
 <br>
 **많은 시간이 걸립니다. 완료!<br>
