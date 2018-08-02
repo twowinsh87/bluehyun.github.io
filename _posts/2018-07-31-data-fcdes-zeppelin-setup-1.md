@@ -58,4 +58,8 @@ nothing to commit, working tree clean
 
 <br>
 **많은 시간이 걸립니다. 완료!<br>
-그리고 현재 [공식 홈페이지](https://zeppelin.apache.org/)에서 정식 v0.8 이용이 가능합니다.**
+그리고 현재 [공식 홈페이지](https://zeppelin.apache.org/)에서 정식 v0.8 이용이 가능합니다.**  
+
+**Zeppelin log 보기**
+`$ cd /zeppelin-0.7.3-bin-netinst/logs`
+`$ tail -f 호스트명.log.날짜`
