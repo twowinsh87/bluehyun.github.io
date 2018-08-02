@@ -4,5 +4,5 @@ title: Kafka
 slug: kafka
 category: etc
 menu: false
-order: 1
+order: 2
 ---

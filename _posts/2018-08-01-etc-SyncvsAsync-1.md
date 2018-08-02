@@ -3,7 +3,7 @@ layout: post
 title:  "동기 vs 비동기"
 subtitle:   "동기 vs 비동기"
 categories: etc
-tags: etc
+tags: itknowledge
 comments: true
 ---
 
