@@ -27,7 +27,7 @@ comments: true
 
 3. RDD(Resilient Distributed Datasets)
  - [RDD공식문서](https://spark.apache.org/docs/latest/rdd-programming-guide.html#actions)  
- - 클러스터 전체에서 공유되는 리스트, 메모리상에 올라가있음. (메모리 부 족한 경우, 디스크에 spill)
+ - 클러스터 전체에서 공유되는 리스트, 메모리상에 올라가있음. (메모리 부족한 경우, 디스크에 spill)
  - interface는 List와 거의 동일함
  - map, reduce, count, filter, join 등 다양한 작업 가능
  - 작업을 병렬적으로 처리
@@ -58,10 +58,10 @@ comments: true
 **RDD 테스트**  
 **버전 정보**  
 Java version 1.8  
-Hadoop version: 3.0  
+//Hadoop version: 3.0  
 Spark version: 2.3  
 Scala version: 2.11.12  
-Python version: 3.6.4  
+//Python version: 3.6.4  
 
  **구동**   
  터미널, $spark-shell  
