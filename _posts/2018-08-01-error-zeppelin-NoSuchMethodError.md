@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[제플린 Error]java.lang.NoSuchMethodError"
-subtitle:   "[제플린 Error]java.lang.NoSuchMethodError"
+title:  "[Zeppelin Error]java.lang.NoSuchMethodError"
+subtitle:   "[Zeppelin Error]java.lang.NoSuchMethodError"
 categories: data
 tags: issue
 comments: true
