@@ -15,8 +15,7 @@ comments: true
  - RDD(Resilient Distributed Dataset)  
  	탄력적이면서 분산된 데이터 셋 = List
  - Scala Interface  
-
- 	**현재는 RDD의 비중이 높음 다만 앞으로는 DataSet, DataFrame 쪽으로 무게가 실릴 것.**
+ - 현재는 RDD의 비중이 높음 다만 앞으로는 DataSet, DataFrame 쪽으로 무게가 실릴 것.  
 
 
 2. Apache Spark 확장 프로젝트  
@@ -45,7 +44,7 @@ comments: true
 5. RDD 특징
  - Transformation
  - Actions
- - Lineage : 클러스터 중 일부의 고장으로 실패하더라도, Lineage를 통해 데이터 복수
+ - Lineage : 클러스터 중 일부의 고장으로 실패하더라도, Lineage를 통해 데이터 복구
  - Lazy Execution: Transformation에서는 계산을 수행하지않고, Action이 수행되는 시점에 데이터를 읽어들여서 계산을 시작함.
 
 6. Lineage
