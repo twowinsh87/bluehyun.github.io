@@ -21,7 +21,7 @@ comments: true
 |/use/bin| /bin에 있는 명령을 제외한 기본적인 명령어| 일반사용자|
 |/usr/sbin| /sbin에 있는 명령을 제외한 시스템 관리를 위한 명령어 |root|
 
-
+<img src ="https://github.com/twowinsh87/twowinsh87.github.io/blob/master/assets/img/linuxdir.gif?raw=true">
 
 
 - /(루트)  
