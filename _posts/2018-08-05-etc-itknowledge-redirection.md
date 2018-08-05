@@ -2,8 +2,8 @@
 layout: post
 title:  "[리눅스(Linux)] redirection"
 subtitle:   "[리눅스(Linux)] redirection"
-categories: itknowledge
-tags: kafka
+categories: etc
+tags: itknowledge
 comments: true
 ---
 

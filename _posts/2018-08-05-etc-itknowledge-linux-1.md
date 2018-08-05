@@ -2,8 +2,8 @@
 layout: post
 title:  "[리눅스(Linux)] 디렉토리 알아보기"
 subtitle:   "[리눅스(Linux)] 디렉토리 알아보기"
-categories: itknowledge
-tags: kafka
+categories: etc
+tags: itknowledge
 comments: true
 ---
 
