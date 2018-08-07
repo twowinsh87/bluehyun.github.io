@@ -7,7 +7,7 @@ tags: gcp
 comments: true
 ---
 
-### GCP(google cloud flatform)에서 인스턴스 외부ip 고정하기
+## GCP(google cloud flatform)에서 인스턴스 외부ip 고정하기
 
 > 인스턴스 중지 후 다시 시작하면 외부아이피가 변동된다. 이부분을 해결해보자
 
