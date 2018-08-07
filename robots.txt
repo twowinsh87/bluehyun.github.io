@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
+
 Sitemap: https://twowinsh87.github.io/sitemap.xml
