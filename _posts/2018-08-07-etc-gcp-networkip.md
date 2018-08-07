@@ -6,7 +6,7 @@
 - 인스턴스가 이미 생성되어 있는 경우
 	- GCP 콘솔 - 네트워킹 - VPC 네트워크 - 외부 IP 주소
 	- 아래 그림 참고
-	<img src="gcp_ip_2"
+	<img src="https://github.com/twowinsh87/twowinsh87.github.io/blob/master/assets/etc_img/gcp_ip_2.png?raw=true">  
 
 	- 고정 주소 예약 - 이름 작성 - 지역(인스턴스 설정 지역) - 연결 대상(연결하고자 하는 인스턴트 클릭) - 예약(완료)
 	- 콘솔 - 인스턴스로 가서 확인해보자
