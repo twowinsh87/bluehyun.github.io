@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "[Spark_5]Google Cloud Platform에서 클러스터 구성하기"
-subtitle:   "[Spark_5]Google Cloud Platform에서 클러스터 구성하기"
+title:  "[Spark_5]Google Cloud Platform에서 spark 클러스터 구성하기"
+subtitle:   "[Spark_5]Google Cloud Platform에서 spark 클러스터 구성하기"
 categories: data
 tags: fcdes
 comments: true
 ---
 
-## [Spark]Google Cloud Platform에서 클러스터 구성하기
+## [Spark]Google Cloud Platform에서 spark 클러스터 구성하기
 
 > GCP 무료 크레딧($300)으로 클러스터를 구성해보자  
 > 클러스터를 구성하는 방법은 아래 두가지가 있다(VM/클라우드)
@@ -114,6 +114,8 @@ comments: true
  GCP(google cloud platform)에서 스냅샷으로 인스턴스 생성하여 여러대를 구성할 때, authorized_keys 를 엎어버리는 것? 같습니다. 그래서 spark cluster가 실행되지 않는 문제가 있습니다. (permission denied) 상태.
 GCP에서 해결책 찾기는 못하였고 GCP를 사용한다면 다음 포스팅 예정인 GCP의 DataProc 서비스를 사용하거나, aws의 ec2로 구성하면 문제가 없으니 aws를 사용하는 것이 좋겠습니다.  
  그리고 잘 작동하더라도 인스턴스 실습 후 중지하고, 추후 다시 재 실행 할 때마다 외부 접속 ip가 달라지므로 master conf에서 ip 등록을 다시하거나, 내부 ip로 접속하는 방법을 사용해야 할 것같습니다.  
+
+- 해결책을 정리했습니다.[ip고정 바로가기](https://twowinsh87.github.io/etc/2018/08/07/etc-gcp-networkip/)
 
 <br>
 
