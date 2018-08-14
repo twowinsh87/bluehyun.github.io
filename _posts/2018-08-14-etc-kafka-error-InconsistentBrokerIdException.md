@@ -7,7 +7,7 @@ tags: kafka
 comments: true
 ---
 
->##[Kafka]kafka.common.InconsistentBrokerIdException error  
+> ##[Kafka]kafka.common.InconsistentBrokerIdException error    
 > ERROR Fatal error during KafkaServer startup. Prepare to shutdown (kafka.server.KafkaServer)
 kafka.common.InconsistentBrokerIdException: Configured broker.id 1 doesn't match stored broker.id 2 in meta.propert
 ies. If you moved your data, make sure your configured broker.id matches. If you intend to create a new broker, you
