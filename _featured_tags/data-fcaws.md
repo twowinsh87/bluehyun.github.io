@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: error & etc
-slug: issue
+title: 패스트캠퍼스-AWS
+slug: fcdaws
 category: data
 menu: false
-order: 3
+order: 2
 ---
