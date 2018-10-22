@@ -2,6 +2,8 @@
 layout: post
 title:  "[RDBMS]MySQL 사용하기"
 subtitle:   "[RDBMS]MySQL 사용하기"
+description : "RDBMS MySQL 사용하기"
+keywords : "rdbms, mysql, sequelpro, rdbgui, 데이터베이스, rdb"
 categories: etc
 tags: rdbms_mysql
 comments: true

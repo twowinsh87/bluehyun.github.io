@@ -2,6 +2,8 @@
 layout: post
 title:  "[RDBMS]MySQL GUI툴(Sequel pro) 사용하기 "
 subtitle:   "[RDBMS]MySQL GUI툴(Sequel pro) 사용하기 "
+description : "RDBMS MySQL GUI툴(Sequel pro) 사용하기"
+keywords : "rdbms, mysql, sequelpro, rdbgui, 데이터베이스, rdb"
 categories: etc
 tags: rdbms_mysql
 comments: true
