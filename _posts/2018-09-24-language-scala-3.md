@@ -2,9 +2,9 @@
 layout: post
 title:  "[Scala]조건문과 반복문"
 subtitle:   "[Scala]조건문과 반복문"
-categories: language
 description : "Scala 조건문 반복분"
 keywords : "Scala, oop문법, 반복문, 조건문, 스칼, 함수형프로그래밍"
+categories: language
 tags: scala
 comments: true
 ---

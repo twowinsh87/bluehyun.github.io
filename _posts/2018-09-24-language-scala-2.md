@@ -2,9 +2,9 @@
 layout: post
 title:  "[Scala]헬로, 스칼라"
 subtitle:   "[Scala]헬로, 스칼라"
-categories: language
 description : "Scala "
 keywords : "Scala, oop문법, oop, 스칼라, 함수형프로그래밍"
+categories: language
 tags: scala
 comments: true
 ---

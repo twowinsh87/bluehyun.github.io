@@ -2,10 +2,10 @@
 layout: post
 title:  "[Kafka]kafka.common.InconsistentBrokerIdException error"
 subtitle:   "[Kafka]kafka.common.InconsistentBrokerIdException error"
-categories: etc
-tags: kafka
 description : "kafka 에러 error"
 keywords : "kafka, kafka.common.InconsistentBrokerIdException, InconsistentBrokerIdException"
+categories: etc
+tags: kafka
 comments: true
 ---
 
