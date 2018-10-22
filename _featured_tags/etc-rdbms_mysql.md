@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: Database_RDBMS_MySql
+title: MySql
 slug: rdbms_mysql
 category: etc
 menu: false
