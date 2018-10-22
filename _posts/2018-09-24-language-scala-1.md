@@ -3,8 +3,8 @@ layout: post
 title:  "[Scala]스칼라 알아보기"
 subtitle:   "[Scala]스칼라 알아보기"
 categories: language
-description : "Scala "
-keywords : "Scala, oop문법, oop, 스칼라"
+description : "Scala 알아보기"
+keywords : "Scala, oop문법, oop, 스칼라, 함수형프로그래밍"
 tags: scala
 comments: true
 ---
