@@ -23,18 +23,18 @@ comments: true
 <img src = "https://github.com/twowinsh87/twowinsh87.github.io/blob/master/assets/img/mysql-2.png?raw=true" wight="300" height="300">
 
 - 데이터 베이스 목록을 볼 수 있다.
-	- 그러나 데이터베이스를 만들 것이므로 다음 사진을 참고
+	- Add database에서 데이터베이스를 추가
 <br>
 
 <img src = "https://github.com/twowinsh87/twowinsh87.github.io/blob/master/assets/img/mysql-3.png?raw=true" wight ="300" height="300">
 
-- 좌측 하단의 +(플러스) 표시를 눌러서 데이터베이스를 만든다
+- 좌측 하단의 +(플러스) 표시를 눌러서 테이블을 만든다
 
 <br>
 
 <img src = "https://github.com/twowinsh87/twowinsh87.github.io/blob/master/assets/img/mysql-4.png?raw=true" wight = "300" height="300">
 
-- 중간의 검정부분의 +(플러스)를 누르며 테이블을 정의한다.
+- 중간의 검정부분의 +(플러스)를 누르며 테이블의 컬럼을 정의한다.
 
 
 - 지금부터는 자신이 학습하거나 목적에 맞는 테이블을 구성할 것
