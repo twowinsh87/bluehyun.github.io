@@ -3,7 +3,7 @@ layout: post
 title:  "[RDBMS]MySQL GUI툴(Sequel pro) 사용하기 "
 subtitle:   "[RDBMS]MySQL GUI툴(Sequel pro) 사용하기 "
 categories: etc
-tags: rdbms-mysql
+tags: rdbms_mysql
 comments: true
 ---
 
