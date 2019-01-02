@@ -25,7 +25,7 @@ comments: true
 ### 로깅 파일로 출력하기
 - application.properties 파일안에    
 
-```logging.path=logs```
+`logging.path=logs`
 
 - logs 디렉토리가 현재 project 안에 생성되면서 log가 남는다.
 - 기본적으로 10mb까지 로그가 남는다.
