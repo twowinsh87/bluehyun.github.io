@@ -68,3 +68,8 @@ comments: true
 - jar 배포, 실행
 	- 패키징: ```$ mvn clean package```
 	- jar실행: ```$ java -jar target/패키지명```
+
+- 유의할 점.
+	- mvn package가 일어날 때, Main을 하고 Test부분을 package 하기 때문에
+	- 동일한 application.properties가 있으면 Test가 우선시 된다(동일한 객체에 다른 값이 있다면 배포시 문제).
+	- 물론 Test에 그러한 없다면 main 루트의 설정파일이 default다. 

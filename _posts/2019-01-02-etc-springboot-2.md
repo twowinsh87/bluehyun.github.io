@@ -41,6 +41,48 @@ comments: true
 ### (3) @SpringBootApplication
 > 위의 두가지(1),(2) 스캔과정을 @SpringBootApplication 선언 하나로 모든 작업을 함.
 
+
+
+### 우선순위 정책
+- 우선순위 정책은 여러가지가 있다. 먼저 위와 같은 상황을 생각하면,
+	- ComponentScan이 먼저 실행되고, EnableAutoconfiguration 이 실행되면서,
+	- ComponentScan으로 특정 클래스에 set한 값이 EnableAutoconfiguration 에 의해서 다른 값으로 덮어쓰여질 수 있다.
+
+- .properties 우선순위(외부 설정)
+	- 먼저, application.properties는 Spring boot가 구동될 때, 자동으로 읽어들인다.
+	- 외부설정의 우선순위는 17가지가 있고 각기 중복되는 것이 있다면 override가 일어나서 우선순위가 높은 것에 설정된 것이 실행된다.
+	- application.properties에서 여러가지 작성기법이 존재하는데,
+		- serverport 의 랜덤값을 주고 싶으면, 0
+		- 변수 매핑을 사용하려면 {key}값으로 활용.
+		- random은 int long uuid 등 여러가지를 지원함.
+	- 그리고 이러한 외부 설정파일이 많은 경우에 .class로 만들어서 관리가 가능함.
+
+```
+예를 들어서
+application.properties
+application-dev.properties 라는 두가지 properties가 있고, 안에 동일한 값이 명시되어 있을 때,
+application-dev.properties가 우선순위가 높다.
+이유는, JAR 안에 기본적으로 들어가 있는 application보다 JAR 밖에 만들어 놓은 application-dev.properties가 우선순위가 높기 때문
+```
+
+- 위의 예시에서 application-{dev}.properties 에서 dev를 Annotation을 통해서 사용할 수 있는데 그 것이 @profile 이다.
+
+### Profile
+- @profile("String")
+	- 구분을 주고 특정한 @Bean을 구분해서 사용할 수 있음.
+
+```
+<예시>
+
+// TestCongiguration.class
+@Profile("test")
+@Configuration
+public class TestConfiguration
+
+// application.properties
+spring.profiles.active=test
+```
+
 <br>
 
 ## - Rest Api
