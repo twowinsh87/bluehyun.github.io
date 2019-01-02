@@ -29,7 +29,7 @@ comments: true
 	- Artifact: 실제 서비스 네임. msa에서 하나의 서비스.
 	- Version: 프로젝트 버전을 기록
 
-<img src="Blog_Spring boot01">
+<img src="https://github.com/twowinsh87/twowinsh87.github.io/blob/master/assets/springboot_img/blog_springboot01_01.png?raw=true">
 
 - Dependencies에서 필요한 의존성을 추가한다.
 

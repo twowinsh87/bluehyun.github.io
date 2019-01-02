@@ -32,6 +32,7 @@ comments: true
 - 로그사이즈 등에 따른 설정은 변경이 가능하다.
 [Log관련 공식문서 바로가기](https://docs.spring.io/spring-boot/docs/2.0.3.RELEASE/reference/html/boot-features-logging.html#boot-features-logging-file-output)
 
+
 ### Logback
 - spring boot에서 로그 설정하기(콘솔)
 - 동작방식
@@ -62,13 +63,14 @@ public class User {
 }
 
 username; password 필드만 가진 생성자를 만들어줌. 예시에는 없지만 final을 붙인 필드도 추가.
-
 ```
+
 - @AllArgsConstructor(모든 인자를 가진 생성자)
 - @NoArgsConstructor(기본 생성자)
 - @RequiredArgsConstructor(필수 인자만 있는 생성자)
 - @Builder: 다수의 필드를 가지는 클래스의 경우, 생성자 대신에 빌더를 사용하는 경우에 사용.(빌더를 자동 추가)
 	- 단점: 인자가 추가되는 일이 발생하면 코드를 수정하기 어렵다.
+
 ```
 @Builder
 public class User {
@@ -80,6 +82,7 @@ public class User {
 // 사용
 User user = User.builder().name("ABC").id(12).score(10).score(20);
 ```
+
 - @NonNull : 변수에 붙이면 Null을 체크해줌. null값이 넘어오면 NullPoinerException 예외 발생
 
 <br>
