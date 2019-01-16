@@ -104,7 +104,7 @@ p752부터 참고
 리턴타입		메소드(매개변수)						설명
 List<T>		synchronizedList(List<T> list)		List를 동화기된 List로 리턴
 Map<K,V>	synchronizedMap(Map<K,V> map)		Map을 동기화된 Map으로 리턴
-Set<T>		synchronizedSet(Set<T> set)	Set을 동기화된 Set으로 리턴
+Set<T>		synchronizedSet(Set<T> set)	  Set을 동기화된 Set으로 리턴
 
 EX)
 List<T> list = Collections.synchronizedList(new ArrayList<>());
