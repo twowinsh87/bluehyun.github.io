@@ -31,7 +31,6 @@ comments: true
 
 - resources Directory 생성
 	- test/resources(디렉토리)
-	- 프로젝트 스트럭쳐에서 아래와 같이 클릭
 
 - application-test.yml 생성 및 작성
 	- test/resources/application-test.yml
@@ -51,11 +50,6 @@ spring:
     url: jdbc:h2:mem:test
   flyway:
     enabled: false
-
-  # test에 console을 사용 할 일은 없지만 혹시나...  
-  h2:
-    console:
-      enabled: true
 ```
 
 - data.sql 생성
