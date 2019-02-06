@@ -63,7 +63,7 @@ management:
 	- http://localhost:{포트}/actuator/hystrix.stream
 	- **@EnableHystrixDashboard** 에 의해서 대시보드가 받은 정보로부터 그려짐.
 
-<이미지 삽입 hystrixdashboard>
+<img src="https://github.com/twowinsh87/twowinsh87.github.io/blob/master/assets/springboot_img/hystrixdashboard.png?raw=true">
 
 - (1)은 실제 대시보드를 보는데 반드시 할 필요는 없지만, 이렇게 정보가 보내진다는 것을 확인하기 위함
 - (2)번 상태에서 실제로 테스트하거나 서비스하면서 확인할 수 있음.
