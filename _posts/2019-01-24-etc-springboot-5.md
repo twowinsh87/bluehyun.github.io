@@ -27,19 +27,14 @@ comments: true
 </dependency>
 ```
 
-### class Test
+### resources Directory 생성, application-test.yml, data.sql 생성
 
-```
-@Slf4j
-@ActiveProfiles("test") // application-test.yml을 사용
-@Transactional
-@RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE) //컨트롤러는 제외
-```
-
-### application-test.yml
+- resources Directory 생성
+	- test/resources(디렉토리)
+	- 프로젝트 스트럭쳐에서 아래와 같이 클릭
 
 - application-test.yml 생성 및 작성
+	- test/resources/application-test.yml
 
 ```
 spring:
@@ -63,6 +58,9 @@ spring:
       enabled: true
 ```
 
+- data.sql 생성
+	- test/resources/data.sql
+
 ### Runtime시에 data를 h2에 insert
 - h2는 메모리 디비이므로 미리 넣어주고 select 관련 테스트가 수월하다.
 
@@ -70,6 +68,16 @@ spring:
 //resources/data.sql
 
 ....Entity에 맞게 insert문을 작성...
+```
+
+### class Test
+
+```
+@Slf4j
+@ActiveProfiles("test") // application-test.yml을 사용
+@Transactional
+@RunWith(SpringRunner.class)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE) //컨트롤러는 제외
 ```
 
 **h2를 활용한 테스트 환경 구성 완료**
