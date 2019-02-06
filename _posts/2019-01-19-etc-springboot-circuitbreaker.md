@@ -3,7 +3,7 @@ layout: post
 title:  "[Spring boot] Circuit Breaker"
 subtitle:   "[Spring boot] Circuit Breaker"
 description : "[Spring boot] Circuit Breaker"
-keywords : "springboot, Spring Boot Actuator, Circuit Breaker, 서킷브레이커, msa"
+keywords : "springboot, Spring Boot Actuator, Circuit Breaker, 서킷브레이커, msa, 장애대응"
 categories: etc
 tags: springboot
 comments: true
