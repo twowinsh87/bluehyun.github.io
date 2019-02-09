@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "프로젝트, 구성 및 셋팅"
-subtitle:   "프로젝트, 구성 및 셋팅"
+title:  "[프로젝트] 구성 및 셋팅"
+subtitle:   "[프로젝트] 구성 및 셋팅"
+description : "[프로젝트] 구성 및 셋팅"
+keywords : "python 버전, python 3.6.5, pyenv, 아나콘다, anaconda, 아나콘다 버전, 아나콘다 업데이트, python 삭제"
 categories: project
 tags: troll
 comments: true
