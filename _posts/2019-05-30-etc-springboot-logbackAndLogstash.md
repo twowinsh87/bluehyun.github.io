@@ -99,14 +99,14 @@ log.Info("### 사용자 번호 로그 userNo: {}", userNo); //userNo는 위에�
 
 	<!-- 다른 불필요 설정 생략~~~ -->
 
-    <!--k.c.l.t.i.c.xxxSearchController => kr.co.l사명.~~ 이하 는 TRACE 레벨 이상이면 아래 CONSOLE과 LOGSTASH 설정을 참고-->
-    <logger name="kr.co.leadsoft" level="TRACE" additivity="false">
+    <!--kr.co.lsoft 는 패키지명 해당 패키지는 TRACE 레벨 이상이면, CONSOLE과 LOGSTASH 설정을 참고함. -->
+    <logger name="kr.co.lsoft" level="TRACE" additivity="false">
         <appender-ref ref="CONSOLE" />
         <appender-ref ref="LOGSTASH" />
     </logger>
 
     <!-- TRACE > DEBUG > INFO > WARN > ERROR, 대소문자 구분 안함 -->
-    <!-- root는 전역으로 INFO 레벨 이상인 로그만 남기고 있고, 위에서는 kr.co.leadsoft는 TRACE 레벨 이상이면 다 남기고 있다.-->
+    <!-- root는 전역으로 INFO 레벨 이상인 로그만 남기고 있다.-->
     <root level="INFO">
         <appender-ref ref="CONSOLE" />
         <appender-ref ref="LOGSTASH" />
