@@ -120,6 +120,6 @@ log.Info("### 사용자 번호 로그 userNo: {}", userNo); //userNo는 위에�
 
 
 ## 정리하자면
-- Spring boot에서는 logback.xml 즉 logback의 확장을 통해서 내가 로그에 관한 커스터마이징을 할 수 있고, 위의 예는
+- Spring boot에서는 logback.xml 즉 logback의 확장을 통해서 내가 로그에 관한 커스터마이징을 할 수 있다,
 - Service Application 발생 로그 -> logback.xml 에서 커스터마이징(포맷, JSON, logstash 사용 등)을 셋팅.
-- logstash로 전송
+- logback 의 appender 설정을 통해서어플리케이션의 로그를 logstash로 전송할 수 있는 방법을 지원한다.
