@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[Docker] 포트포워딩, 컨테이너"
-subtitle:   "[Docker] 포트포워딩, 컨테이너"
-description : "[Docker] MySql, MariaDB 셋팅하기"
-keywords : "docker, docker 명령어, msa, docker run, docker start, docker restart, 도커, docker mariadb, docker mysql, docker db, docker 포트포워딩, 컨테이너, docker 컨테이너, 도커 컨테이너, 도커 포트포워딩, 도커 ip, 도커 웹서버"
+title:  "[Docker] DB, 웹서버 셋팅으로 알아보는 포트포워딩, 컨테이너, 볼륨"
+subtitle:   "[Docker] DB, 웹서버 셋팅으로 알아보는 포트포워딩, 컨테이너, 볼륨"
+description : "[Docker] DB, 웹서버 셋팅으로 알아보는 포트포워딩, 컨테이너, 볼륨"
+keywords : "docker, docker 명령어, msa, docker run, docker start, docker restart, 도커, docker mariadb, docker mysql, docker db, docker 포트포워딩, 컨테이너, docker 컨테이너, 도커 컨테이너, 도커 포트포워딩, 도커 ip, 도커 웹서버, 도커 볼륨, docker volume"
 categories: etc
 tags: docker
 comments: true
