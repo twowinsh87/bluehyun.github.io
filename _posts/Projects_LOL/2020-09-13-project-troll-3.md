@@ -100,6 +100,9 @@ VPC를 새로 구축했기 때문에  default 방화벽 규칙을 적용할 수 
 
 - Please enter a value between 1 and 2, or a value present in the list 에 따라서 위에 기술된 프로젝트를 선택함. 질문에 따라서 시작
 
+## *gcloud 계정전환
+[https://www.oops4u.com/2376 참고하기](https://www.oops4u.com/2376)
+
 
 ## 접속하기
 - 방법1. vm -> ssh 연결
