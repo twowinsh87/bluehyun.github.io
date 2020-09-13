@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "프로젝트-upper-gcp구축"
-subtitle:   "프로젝트-upper-gcp구축"
+title:  "[프로젝트] lol gcp구축하기"
+subtitle:   "[프로젝트] lol gcp구축하기"
 categories: project
 tags: troll
 comments: true
