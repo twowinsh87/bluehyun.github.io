@@ -16,12 +16,12 @@ timezone: Asia/Seoul # 지역 시간 설정
 baseurl:             ""
 
 # A very short description of your page
-tagline:             데이터 주니어😉          Apache Open Source / AWS, GCP / ML / Visualization / etc ...
+tagline:             Back-end, Data, Solution(Kafka, etc) Engineer, DevOps
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  네이버 블로그에서 옮기는 중
+  아직 방향을 못잡은 개발자
 
 
 # This should be the same author as first entry in `_data/authors.yml`
